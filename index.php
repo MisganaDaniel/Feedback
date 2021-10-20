@@ -24,23 +24,23 @@
             <form class="row g-3" style="margin-left:60px;">
                 <div class="col-md-5">
                     <label class="form-label">First Name</label>
-                    <input type="text" class="form-control" id="firstName" placeholder="Firstname">
+                    <input type="text" class="form-control" id="firstName" placeholder="Firstname" required>
                 </div>
                 <div class="col-md-5">
                     <label class="form-label">Last Name</label>
-                    <input type="text" class="form-control" id="lastName" placeholder="Lastname">
+                    <input type="text" class="form-control" id="lastName" placeholder="Lastname" required>
                 </div>
                 <div class="col-5">
                     <label class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Email">
+                    <input type="email" class="form-control" id="email" placeholder="Email" required>
                 </div>
                 <div class="col-5">
                     <label class="form-label">Date</label>
-                    <input type="date" class="form-control" id="Date" >
+                    <input type="date" class="form-control" id="Date" required>
                 </div>
                 <div class="col-10">
                     <label class="form-label">Feedback</label>
-                    <textarea class="form-control" id="feedback" rows="4" cols="50"> 
+                    <textarea class="form-control" id="feedback" rows="4" cols="50" required> 
                     </textarea>
                     <!-- <input type="date"  id="inputAddress2" placeholder="Apartment, studio, or floor"> -->
                 </div>
