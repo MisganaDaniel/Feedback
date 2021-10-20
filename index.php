@@ -31,14 +31,14 @@
                     <label class="form-label">Date</label>
                     <input type="date" class="form-control" id="inputAddress2" >
                 </div>
-                <div class="col-5">
+                <div class="col-8">
                     <label class="form-label">Feedback</label>
                     <textarea class="form-control" name="w3review" rows="4" cols="50" placeholder="feedback"> 
                     </textarea>
                     <!-- <input type="date"  id="inputAddress2" placeholder="Apartment, studio, or floor"> -->
                 </div>
                 <div class="col-5">
-                
+
                 </div>
                 <div class="col-5">
                     <button type="submit" class="btn btn-primary">Sign in</button>
