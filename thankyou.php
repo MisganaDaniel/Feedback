@@ -21,16 +21,10 @@
         <div class="_body">
             <div class="_box">
                 <h2>
-                    <strong>Please check your email</strong> for further instructions on how to complete your account setup.
+                    Thank you for giving us your Feedback.
                 </h2>
-                <p>
-                    Thanks a bunch for filling that out. It means a lot to us, just like you do! We really appreciate you giving us a moment of your time today. Thanks for being you.
-                </p>
+                <img src="" alt="thankyou.png">
             </div>
-        </div>
-        <div class="_footer">
-            <p>Having trouble? <a href="">Contact us</a> </p>
-            <a class="btn" href="">Back to homepage</a>
         </div>
     </div>
 </body>
