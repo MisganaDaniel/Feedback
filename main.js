@@ -1,5 +1,5 @@
 function feedback(){
-    //var requestBody = "{\"first_name\":\"Misgana\",\"last_name\":\"Daniel\",\"email\":\"danielmisgun@gmail.com\",\"date\":\"\",\"feedback\":\"Perfect\"}"; 
+    var requestBody = "{\"first_name\":\"Misgana\",\"last_name\":\"Daniel\",\"email\":\"danielmisgun@gmail.com\",\"date\":\"\",\"feedback\":\"Perfect\"}"; 
 
     /* var firstName = document.getElementById("firstName");
     var lastName = document.getElementById("lastName");
@@ -24,8 +24,4 @@ function feedback(){
         }
     }; 
     client.send(requestBody);
-}
-
-function hello(){
-    alert("Hello");
 }
