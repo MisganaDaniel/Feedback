@@ -31,7 +31,7 @@
                     <label class="form-label">Date</label>
                     <input type="date" class="form-control" id="inputAddress2" >
                 </div>
-                <div class="col-12">
+                <div class="col-10">
                     <label class="form-label">Feedback</label>
                     <textarea class="form-control" name="w3review" rows="4" cols="50"> 
                     </textarea>
