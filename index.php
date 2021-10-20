@@ -11,7 +11,7 @@
     <title>Feedback</title>
   </head>
   <body>
-    <div class="card" style="width: 1000px;margin-left:200px;">
+    <div class="card" style="width: 1000px;margin-left:150px;margin-top:200px;">
         <div class="card-body">
             <h2 class="card-title">Leave your feedback below.</h2>
             <form class="row g-3">
