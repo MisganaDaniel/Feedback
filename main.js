@@ -16,7 +16,7 @@ function feedback(){
     client.setRequestHeader('Content-Type','application/json');
 
     //Eg. UserName="admin", Password="admin" for this code sample.
-    client.setRequestHeader('Authorization', 'Basic '+btoa('admin'+':'+'admin'));
+    client.setRequestHeader('Authorization', 'Basic '+btoa('admin'+':'+'Al4i2lCSAziO'));
 
     client.onreadystatechange = function() { 
         if(this.readyState == this.DONE) {
