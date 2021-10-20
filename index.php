@@ -38,6 +38,9 @@
                     <!-- <input type="date"  id="inputAddress2" placeholder="Apartment, studio, or floor"> -->
                 </div>
                 <div class="col-5">
+                
+                </div>
+                <div class="col-5">
                     <button type="submit" class="btn btn-primary">Sign in</button>
                 </div>
             </form>
