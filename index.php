@@ -17,7 +17,7 @@
                 <div class="col-md-3">
                     <img src="logo.png" alt="">
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-7">
                     <h2 class="card-title" style="margin-bottom:70px;margin-top:20px;text-align:center;">Leave Your Feedback Below.</h2>
                 </div>
             </div>
