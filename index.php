@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <script src="main.js"></script>
     <title>Feedback</title>
   </head>
   <body>
@@ -24,23 +24,23 @@
             <form class="row g-3" style="margin-left:60px;">
                 <div class="col-md-5">
                     <label class="form-label">First Name</label>
-                    <input type="text" class="form-control" id="inputEmail4" placeholder="Firstname">
+                    <input type="text" class="form-control" id="firstName" placeholder="Firstname">
                 </div>
                 <div class="col-md-5">
                     <label class="form-label">Last Name</label>
-                    <input type="text" class="form-control" id="inputPassword4" placeholder="Lastname">
+                    <input type="text" class="form-control" id="lastName" placeholder="Lastname">
                 </div>
                 <div class="col-5">
                     <label class="form-label">Email</label>
-                    <input type="email" class="form-control" id="inputAddress" placeholder="Email">
+                    <input type="email" class="form-control" id="email" placeholder="Email">
                 </div>
                 <div class="col-5">
                     <label class="form-label">Date</label>
-                    <input type="date" class="form-control" id="inputAddress2" >
+                    <input type="date" class="form-control" id="Date" >
                 </div>
                 <div class="col-10">
                     <label class="form-label">Feedback</label>
-                    <textarea class="form-control" name="w3review" rows="4" cols="50"> 
+                    <textarea class="form-control" id="feedback" rows="4" cols="50"> 
                     </textarea>
                     <!-- <input type="date"  id="inputAddress2" placeholder="Apartment, studio, or floor"> -->
                 </div>
@@ -48,7 +48,7 @@
 
                 </div>
                 <div class="col-5">
-                    <button type="submit" class="btn btn-primary"><a href="thankyou.php">Submit</a></button>
+                    <button type="submit" class="btn btn-primary" onclick="feedback()">Submit</button>
                 </div>
             </form>
         </div>
