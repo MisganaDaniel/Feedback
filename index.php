@@ -31,9 +31,9 @@
                     <label class="form-label">Date</label>
                     <input type="date" class="form-control" id="inputAddress2" >
                 </div>
-                <div class="col-8">
+                <div class="col-12">
                     <label class="form-label">Feedback</label>
-                    <textarea class="form-control" name="w3review" rows="4" cols="50" placeholder="feedback"> 
+                    <textarea class="form-control" name="w3review" rows="4" cols="50"> 
                     </textarea>
                     <!-- <input type="date"  id="inputAddress2" placeholder="Apartment, studio, or floor"> -->
                 </div>
