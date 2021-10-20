@@ -33,7 +33,8 @@
                 </div>
                 <div class="col-5">
                     <label class="form-label">Feedback</label>
-                    <textarea class="form-control" name="w3review" rows="4" cols="50" placeholder="feedback">
+                    <textarea class="form-control" name="w3review" rows="4" cols="50" placeholder="feedback"> 
+                    </textarea>
                     <!-- <input type="date"  id="inputAddress2" placeholder="Apartment, studio, or floor"> -->
                 </div>
                 <div class="col-5">
