@@ -13,6 +13,7 @@
   <body>
     <div class="card">
         <div class="card-body">
+            <h5 class="card-title">Card title</h5>
             <form class="row g-3">
                 <div class="col-md-6">
                     <label for="inputEmail4" class="form-label">Email</label>
