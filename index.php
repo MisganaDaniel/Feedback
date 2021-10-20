@@ -15,7 +15,7 @@
         <div class="card-body">
             <h2 class="card-title">Leave your feedback below.</h2>
             <form class="row g-3">
-                <div class="col-md-3>
+                <div class="col-md-3">
                     <label class="form-label">First Name</label>
                     <input type="text" class="form-control" id="inputEmail4">
                 </div>
