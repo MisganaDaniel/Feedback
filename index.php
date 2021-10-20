@@ -7,7 +7,27 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="main.js"></script>
+    <script>
+        function feed() {
+            var requestBody = "{\"feedback\":\"Nice\",\"first_name\":\"Misgun\"}"; 
+
+            var client=new XMLHttpRequest();
+            client.open("post","https://dev105946.service-now.com/api/now/table/x_677549_dengene_0_feedback");
+
+            client.setRequestHeader('Accept','application/json');
+            client.setRequestHeader('Content-Type','application/json');
+
+            //Eg. UserName="admin", Password="admin" for this code sample.
+            client.setRequestHeader('Authorization', 'Basic '+btoa('admin'+':'+'Al4i2lCSAziO'));
+
+            client.onreadystatechange = function() { 
+                if(this.readyState == this.DONE) {
+                    document.getElementById("response").innerHTML=this.status + this.response; 
+                }
+            }; 
+            client.send(requestBody);
+        }
+    </script>
     <title>Feedback</title>
   </head>
   <body>
