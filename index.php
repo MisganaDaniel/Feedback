@@ -48,7 +48,7 @@
 
                 </div>
                 <div class="col-5">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary"><a href="thankyou.php">Submit</a></button>
                 </div>
             </form>
         </div>
