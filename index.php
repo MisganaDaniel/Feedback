@@ -49,7 +49,8 @@
                 </div>
                 <div class="col-5">
                     <!-- <button type="submit" class="btn btn-primary" onclick="feedback()">Submit</button> -->
-                    <input type="button" value="Submit" onclick="feedback()">
+                    <!-- <input type="button" value="Submit" onclick="feedback()"> -->
+                    <input type="submit" value="Submit" onclick="feedback()">
                 </div>
             </form>
         </div>
