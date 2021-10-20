@@ -17,19 +17,24 @@
             <form class="row g-3">
                 <div class="col-md-5">
                     <label class="form-label">First Name</label>
-                    <input type="text" class="form-control" id="inputEmail4">
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="Firstname">
                 </div>
                 <div class="col-md-5">
                     <label class="form-label">Last Name</label>
-                    <input type="text" class="form-control" id="inputPassword4">
+                    <input type="text" class="form-control" id="inputPassword4" placeholder="Lastname">
                 </div>
                 <div class="col-5">
                     <label class="form-label">Email</label>
-                    <input type="email" class="form-control" id="inputAddress" placeholder="email">
+                    <input type="email" class="form-control" id="inputAddress" placeholder="Email">
                 </div>
                 <div class="col-5">
                     <label class="form-label">Date</label>
-                    <input type="date" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    <input type="date" class="form-control" id="inputAddress2" >
+                </div>
+                <div class="col-5">
+                    <label class="form-label">Feedback</label>
+                    <textarea class="form-control" name="w3review" rows="4" cols="50" placeholder="feedback">
+                    <!-- <input type="date"  id="inputAddress2" placeholder="Apartment, studio, or floor"> -->
                 </div>
                 <div class="col-5">
                     <button type="submit" class="btn btn-primary">Sign in</button>
