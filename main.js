@@ -20,10 +20,7 @@ function feedback(){
 
     client.onreadystatechange = function() { 
         if(this.readyState == this.DONE) {
-            //document.getElementById("response").innerHTML=this.status + this.response; 
-            var res = this.response;
-            parsedData = JSON.parse(res);
-            alert("success id is " + parsedData.result.firstName);
+            document.getElementById("response").innerHTML=this.status + this.response;
         }
     }; 
     client.send(requestBody);
