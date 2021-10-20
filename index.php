@@ -15,24 +15,24 @@
         <div class="card-body">
             <h2 class="card-title">Leave your feedback below.</h2>
             <form class="row g-3">
-                <div class="col-md-4">
+                <div class="col-md-5">
                     <label class="form-label">First Name</label>
                     <input type="text" class="form-control" id="inputEmail4">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-5">
                     <label class="form-label">Last Name</label>
                     <input type="text" class="form-control" id="inputPassword4">
                 </div>
-                <div class="col-4">
+                <div class="col-5">
                     <label class="form-label">Email</label>
                     <input type="email" class="form-control" id="inputAddress" placeholder="email">
                 </div>
-                <div class="col-4">
+                <div class="col-5">
                     <label class="form-label">Date</label>
                     <input type="date" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
                 </div>
-                <div class="col-4">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                <div class="col-5">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
                 </div>
             </form>
         </div>
