@@ -11,15 +11,18 @@
     <title>Feedback</title>
   </head>
   <body>
-    
-        <div class="row g-3">
-            <div class="col">
-                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-            </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+    <div class="card">
+        <div class="card-body">
+            <div class="row g-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
             </div>
         </div>
+    </div>
    
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
