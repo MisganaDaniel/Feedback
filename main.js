@@ -25,23 +25,3 @@ function feedback(){
     }; 
     client.send(requestBody);
 }
-
-function incident(){
-    var requestBody = "{\"short_description\":\"broken door\"}"; 
-
-    var client=new XMLHttpRequest();
-    client.open("post","https://dev105946.service-now.com/api/now/table/incident");
-
-    client.setRequestHeader('Accept','application/json');
-    client.setRequestHeader('Content-Type','application/json');
-
-    //Eg. UserName="admin", Password="admin" for this code sample.
-    client.setRequestHeader('Authorization', 'Basic '+btoa('admin'+':'+'Al4i2lCSAziO'));
-
-    client.onreadystatechange = function() { 
-        if(this.readyState == this.DONE) {
-            document.getElementById("response").innerHTML=this.status + this.response; 
-        }
-    }; 
-    client.send(requestBody);
-}
