@@ -25,3 +25,7 @@ function feedback(){
     }; 
     client.send(requestBody);
 }
+
+function hello(){
+    alert("Hello");
+}
