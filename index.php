@@ -62,10 +62,10 @@
 
             var firstName = document.getElementById("firstName");
                 firstName = firstName.value;
-            /* var lastName = document.getElementById("lastName");
+            var lastName = document.getElementById("lastName");
             var email = document.getElementById("email");
             var date = document.getElementById("Date");
-            var feedback = document.getElementById("feedback"); */
+            var feedback = document.getElementById("feedback");
 
             var requestBody = "{\"first_name\":\"" + firstName + "\",\"last_name\":\"" + lastName + "\",\"email\":\"" + email + "\",\"date\":\"" + date + "\",\"feedback\":\"" + feedback + "\"}";
             
