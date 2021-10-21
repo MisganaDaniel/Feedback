@@ -24,5 +24,7 @@ function feedback(){
         }
     }; 
     client.send(requestBody);
-    alert("New feedback");
 }
+ function hello(){
+     alert("hello");
+ }
