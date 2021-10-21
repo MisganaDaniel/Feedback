@@ -59,7 +59,8 @@
     <script>
         function feedback(){
             
-
+            //var requestBody = "{\"first_name\":\"Misgana\",\"last_name\":\"Daniel\",\"email\":\"md@example.com\",\"feedback\":\"Great system\"}"; 
+           
             // var firstName = document.getElementById("firstName");
             // var lastName = document.getElementById("lastName");
             // var email = document.getElementById("email");
@@ -72,7 +73,7 @@
             var date = $("#Date").val();
             var feedback = $("#feedback").val();
 
-            //var requestBody = "{\"first_name\":\"" + firstName + "\",\"last_name\":\"" + lastName + "\",\"email\":\"" + email + "\",\"date\":\"" + date + "\",\"feedback\":\"" + feedback + "\"}";
+            
             var requestBody = "{\"first_name\":\""+firstName+"\",\"last_name\":\""+lastName+"\",\"email\":\""+email+"\",\"date\":\""+date+"\",\"feedback\":\""+feedback+"\"}"; 
 
             var client=new XMLHttpRequest();
