@@ -56,7 +56,7 @@
             </form>
         </div>
     </div>
-    <script>
+    <script type="text/javascript">
         function feedback(){
             
             //var requestBody = "{\"first_name\":\"Misgana\",\"last_name\":\"Daniel\",\"email\":\"md@example.com\",\"feedback\":\"Great system\"}"; 
