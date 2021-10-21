@@ -80,6 +80,7 @@
                 'date':date,
                 'feedback':date
             }
+            console.log(feedbacks);
             var requestBody = "{\"first_name\":\""+firstName+"\",\"last_name\":\""+lastName+"\",\"email\":\""+email+"\",\"date\":\""+date+"\",\"feedback\":\""+feedback+"\"}"
 
             var client=new XMLHttpRequest();
