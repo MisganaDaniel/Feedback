@@ -60,7 +60,7 @@
         function feedback(){
             //var requestBody = "{\"first_name\":\"Misgana\",\"last_name\":\"Daniel\",\"email\":\"danielmisgun@gmail.com\",\"date\":\"\",\"feedback\":\"Perfect\"}"; 
 
-            var firstName = document.getElementById("firstName");
+            var firstName = document.getElementById("firstName").value;
             var lastName = document.getElementById("lastName");
             var email = document.getElementById("email");
             var date = document.getElementById("Date");
