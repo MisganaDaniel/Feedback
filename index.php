@@ -79,7 +79,6 @@
                 'date':date,
                 'feedback':date
             }
-            console.log(feedbacks);
             console.log(firstName);
             var requestBody = "{\"first_name\":\""+firstName+"\",\"last_name\":\""+lastName+"\",\"email\":\""+email+"\",\"date\":\""+date+"\",\"feedback\":\""+feedback+"\"}"
 
