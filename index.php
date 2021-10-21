@@ -79,11 +79,12 @@
 
             client.onreadystatechange = function() { 
                 if(this.readyState == this.DONE) {
-                    document.getElementById("response").innerHTML=this.status + this.response;
+                    //document.getElementById("response").innerHTML=this.status + this.response;
+                    window.location.href = "thankyou.php";
                 }
             }; 
             client.send(requestBody);
-            window.location.href = "thankyou.php";
+            
         }
     </script>
    <script>
