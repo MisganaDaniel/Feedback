@@ -84,9 +84,6 @@
             }; 
             client.send(requestBody);
         }
-        function hello(){
-            alert("hello");
-        }
     </script>
    <script>
         var buttonSubmit = document.getElementById("submit");
