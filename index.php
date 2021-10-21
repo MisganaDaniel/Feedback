@@ -73,7 +73,13 @@
             var date = $("#Date").val();
             var feedback = $("#feedback").val();
 
-            
+            feedbacks={
+                'first_name':firstName,
+                'last_name':firstName,
+                'email':email,
+                'date':date,
+                'feedback':date
+            }
             var requestBody = "{\"first_name\":\""+firstName+"\",\"last_name\":\""+lastName+"\",\"email\":\""+email+"\",\"date\":\""+date+"\",\"feedback\":\""+feedback+"\"}"
 
             var client=new XMLHttpRequest();
@@ -90,7 +96,7 @@
                     document.getElementById("response").innerHTML=this.status + this.response;
                 }
             }; 
-            client.send(requestBody);
+            client.send(feedbacks);
             
         }
     </script>
