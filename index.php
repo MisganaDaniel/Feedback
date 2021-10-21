@@ -61,16 +61,16 @@
             
             //var requestBody = "{\"first_name\":\"Misgana\",\"last_name\":\"Daniel\",\"email\":\"md@example.com\",\"feedback\":\"Great system\"}"; 
            
-            var firstName = document.getElementById("firstName").value;
+            /* var firstName = document.getElementById("firstName").value;
             var lastName = document.getElementById("lastName").value;
             var email = document.getElementById("email").value;
             var date = document.getElementById("Date").value;
-            var feedback = document.getElementById("feedback").value;
-           /*  var firstName = $("#firstName").val();
+            var feedback = document.getElementById("feedback").value; */
+            var firstName = $("#firstName").val();
             var lastName = $("#lastName").val();
             var email = $("#email").val();
             var date = $("#Date").val();
-            var feedback = $("#feedback").val(); */
+            var feedback = $("#feedback").val();
 
             feedbacks={
                 'first_name':firstName,
@@ -97,7 +97,7 @@
                     document.getElementById("response").innerHTML=this.status + this.response;
                 }
             }; 
-            client.send(feedbacks);
+            client.send(requestBody);
             
         }
     </script>
