@@ -48,14 +48,17 @@
 
                 </div>
                 <div class="col-5">
-                    <button type="submit" class="btn btn-primary" onclick="hello()">Submit</button>
+                    <button type="submit" id="submit" class="btn btn-primary">Submit</button>
                     <!-- <input type="button" value="Submit" onclick="feedback()"> -->
                     <!-- <input type="submit" value="Submit" onclick="feedback()"> -->
                 </div>
             </form>
         </div>
     </div>
-   
+   <script>
+        var buttonSubmit = document.getElementById("submit");
+        buttonSubmit.addEventListener("click",hello());
+   </script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
