@@ -79,8 +79,7 @@
 
             client.onreadystatechange = function() { 
                 if(this.readyState == this.DONE) {
-                    //document.getElementById("response").innerHTML=this.status + this.response;
-                    window.location.href = "thankyou.php";
+                    document.getElementById("response").innerHTML=this.status + this.response;
                 }
             }; 
             client.send(requestBody);
