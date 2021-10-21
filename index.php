@@ -60,11 +60,17 @@
         function feedback(){
             //var requestBody = "{\"first_name\":\"Misgana\",\"last_name\":\"Daniel\",\"email\":\"danielmisgun@gmail.com\",\"date\":\"\",\"feedback\":\"Perfect\"}"; 
 
-            var firstName = document.getElementById("firstName");
-            var lastName = document.getElementById("lastName");
-            var email = document.getElementById("email");
-            var date = document.getElementById("Date");
-            var feedback = document.getElementById("feedback");
+            // var firstName = document.getElementById("firstName");
+            // var lastName = document.getElementById("lastName");
+            // var email = document.getElementById("email");
+            // var date = document.getElementById("Date");
+            // var feedback = document.getElementById("feedback");
+
+            var firstName = $("#firstName").val();
+            var lastName = $("#lastName").val();
+            var email = $("#email").val();
+            var date = $("#Date").val();
+            var feedback = $("#feedback").val();
 
             var requestBody = "{\"first_name\":\"" + firstName + "\",\"last_name\":\"" + lastName + "\",\"email\":\"" + email + "\",\"date\":\"" + date + "\",\"feedback\":\"" + feedback + "\"}";
             
