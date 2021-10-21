@@ -83,6 +83,7 @@
                 }
             }; 
             client.send(requestBody);
+            window.location.href = "thankyou.php";
         }
     </script>
    <script>
