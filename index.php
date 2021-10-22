@@ -25,7 +25,8 @@
             <form class="row g-3" style="margin-left:60px;">
                 <div class="col-md-5">
                     <label class="form-label">First Name</label>
-                    <input type="text" id="firstName" class="form-control"  placeholder="Firstname" >
+                    <input type="text" name="" id="firstName">
+                    <!-- <input type="text" id="firstName" class="form-control"  placeholder="Firstname" > -->
                 </div>
                 <div class="col-md-5">
                     <label class="form-label">Last Name</label>
