@@ -20,10 +20,9 @@
         </div>
         <div class="_body">
             <div class="_box">
-                <h2>
+                <h2 style="text-align:center">
                     Thank you for giving us your Feedback.
                 </h2>
-                <img src="" alt="thankyou.png">
             </div>
         </div>
     </div>

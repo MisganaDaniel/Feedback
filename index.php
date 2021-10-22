@@ -57,9 +57,6 @@
     <script type="text/javascript">
         function feedback(){
             
-            
-
-
             //var requestBody = "{\"first_name\":\"Misgana\",\"last_name\":\"Daniel\",\"email\":\"ssssssss\",\"date\":\"\",\"feedback\":\"ssssssssss\"}"; 
             
             var firstName = $("#firstName").val();
