@@ -70,13 +70,13 @@
             var date = $("#Date").val();
             var feedback = $("#feedback").val();
 
-            feedbacks={
+            /* feedbacks={
                 'first_name':firstName,
                 'last_name':firstName,
                 'email':email,
                 'date':date,
                 'feedback':date
-            }
+            } */
             console.log("Ur name is "+firstName);
 
             var requestBody = "{\"first_name\":\""+firstName+"\",\"last_name\":\""+lastName+"\",\"email\":\""+email+"\",\"date\":\""+date+"\",\"feedback\":\""+feedback+"\"}";
@@ -101,8 +101,8 @@
         }
     </script>
    <script>
-        var buttonSubmit = document.getElementById("submit");
-        buttonSubmit.addEventListener("click",feedback);
+        // var buttonSubmit = document.getElementById("submit");
+        // buttonSubmit.addEventListener("click",feedback);
    </script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
