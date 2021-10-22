@@ -57,7 +57,7 @@
     <script type="text/javascript">
         function feedback(){
             
-            //var requestBody = "{\"first_name\":\"Misgana\",\"last_name\":\"Daniel\",\"email\":\"md@example.com\",\"feedback\":\"Great system\"}"; 
+            var requestBody = "{\"first_name\":\"Misgana\",\"last_name\":\"Daniel\",\"email\":\"md@example.com\",\"feedback\":\"Great system\"}"; 
            
             /* var firstName = document.getElementById("firstName").value;
             var lastName = document.getElementById("lastName").value;
