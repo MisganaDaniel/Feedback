@@ -67,13 +67,13 @@
 
             var requestBody = "{\"first_name\":\""+ firstName +"\",\"last_name\":\""+ lastName +"\",\"email\":\"" + email +"\",\"date\":\""+ date +"\",\"feedback\":\""+ feedback +"\"}";
             console.log(requestBody);
-
+            
             var client=new XMLHttpRequest();
             client.open("post","https://dev105946.service-now.com/api/now/table/x_677549_dengene_0_feedback");
-            
+
             client.setRequestHeader('Accept','application/json');
             client.setRequestHeader('Content-Type','application/json');
-            console.log('success');
+
             //Eg. UserName="admin", Password="admin" for this code sample.
             client.setRequestHeader('Authorization', 'Basic '+btoa('admin'+':'+'Al4i2lCSAziO'));
 
