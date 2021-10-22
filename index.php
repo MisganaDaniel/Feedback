@@ -101,8 +101,8 @@
         }
     </script>
    <script>
-        // var buttonSubmit = document.getElementById("submit");
-        // buttonSubmit.addEventListener("click",feedback);
+        var buttonSubmit = document.getElementById("submit");
+        buttonSubmit.addEventListener("click",feedback);
    </script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
