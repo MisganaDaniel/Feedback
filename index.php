@@ -91,7 +91,8 @@
         //var buttonSubmit = document.getElementById("submit").addEventListener("click",feedback);
         var buttonSubmit = document.getElementById("submit");
         buttonSubmit.addEventListener('click', function(event){
-            console.log('Button Clicked');
+            //console.log('Button Clicked');
+            feedback();
         });
         //buttonSubmit.addEventListener("click",feedback);
    </script>
