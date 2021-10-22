@@ -79,9 +79,9 @@
 
             client.onreadystatechange = function() { 
                 if(this.readyState == this.DONE) {
-                   alert("done")
+                   alert("done");
                 }else{
-                    alert("not done")
+                    alert("not done");
                 }
             }; 
             client.send(requestBody);
