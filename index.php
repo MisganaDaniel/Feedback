@@ -78,7 +78,8 @@
 
             client.onreadystatechange = function() { 
                 if(this.readyState == this.DONE) {
-                    document.getElementById("response").innerHTML=this.status + this.response; 
+                    //document.getElementById("response").innerHTML=this.status + this.response; 
+                    alert("recieved");
                 }
             }; 
             client.send(requestBody);
