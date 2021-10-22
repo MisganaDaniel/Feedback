@@ -57,7 +57,7 @@
     <script type="text/javascript">
         function feedback(){
             
-            var buttonSubmit = document.getElementById("submit").addEventListener("click",feedback());
+            var buttonSubmit = document.getElementById("submit").addEventListener("click",feedback);
 
 
             var requestBody = "{\"first_name\":\"Misgana\",\"last_name\":\"Daniel\",\"email\":\"ssssssss\",\"date\":\"\",\"feedback\":\"ssssssssss\"}"; 
