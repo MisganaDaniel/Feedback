@@ -77,7 +77,7 @@
                 'date':date,
                 'feedback':date
             } */
-            console.log("Ur name is "+firstName);
+            //console.log("Ur name is "+firstName);
 
             var requestBody = "{\"first_name\":\""+firstName+"\",\"last_name\":\""+lastName+"\",\"email\":\""+email+"\",\"date\":\""+date+"\",\"feedback\":\""+feedback+"\"}";
             // var requestBody = "{\"user_name\":\"" + name +"\",     \"email\":\"" + email +"\",\"data\":\"" + date +"\",\"feedback\":\"" + feedback +"\"}";  
@@ -101,8 +101,8 @@
         }
     </script>
    <script>
-        var buttonSubmit = document.getElementById("submit");
-        buttonSubmit.addEventListener("click",feedback);
+        var buttonSubmit = document.getElementById("submit")addEventListener("click",feedback);
+        //buttonSubmit.addEventListener("click",feedback);
    </script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
