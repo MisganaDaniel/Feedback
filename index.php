@@ -57,7 +57,7 @@
     <script type="text/javascript">
         function feedback(){
             
-            //var requestBody = "{\"first_name\":\"Misgana\",\"last_name\":\"Daniel\",\"email\":\"ssssssss\",\"date\":\"\",\"feedback\":\"ssssssssss\"}"; 
+            var requestBody = "{\"first_name\":\"Misgana\",\"last_name\":\"Daniel\",\"email\":\"ssssssss\",\"date\":\"\",\"feedback\":\"ssssssssss\"}"; 
            
             var firstName = document.getElementById("firstName").value;
             var lastName = document.getElementById("lastName").value;
@@ -65,7 +65,7 @@
             var date = document.getElementById("Date").value;
             var feedback = document.getElementById("feedback").value;
 
-            var requestBody = "{\"first_name\":\""+ firstName +"\",\"last_name\":\""+ lastName +"\",\"email\":\"" + email +"\",\"date\":\""+ date +"\",\"feedback\":\""+ feedback +"\"}";
+            //var requestBody = "{\"first_name\":\""+ firstName +"\",\"last_name\":\""+ lastName +"\",\"email\":\"" + email +"\",\"date\":\""+ date +"\",\"feedback\":\""+ feedback +"\"}";
             console.log(requestBody);
             
             var client=new XMLHttpRequest();
