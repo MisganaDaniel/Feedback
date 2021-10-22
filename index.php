@@ -79,10 +79,10 @@
                 'date':date,
                 'feedback':date
             }
-            console.log(firstName);
+            console.log("Ur name is "+firstName);
             var requestBody = "{\"first_name\":\""+firstName+"\",\"last_name\":\""+lastName+"\",\"email\":\""+email+"\",\"date\":\""+date+"\",\"feedback\":\""+feedback+"\"}";
             // var requestBody = "{\"user_name\":\"" + name +"\",     \"email\":\"" + email +"\",\"data\":\"" + date +"\",\"feedback\":\"" + feedback +"\"}";  
-    console.log(requestBody);
+            //console.log(requestBody);
             var client=new XMLHttpRequest();
             client.open("post","https://dev105946.service-now.com/api/now/table/x_677549_dengene_0_feedback");
 
