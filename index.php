@@ -59,27 +59,13 @@
             
             //var requestBody = "{\"first_name\":\"Misgana\",\"last_name\":\"Daniel\",\"email\":\"md@example.com\",\"feedback\":\"Great system\"}"; 
            
-            /* var firstName = document.getElementById("firstName").value;
-            var lastName = document.getElementById("lastName").value;
-            var email = document.getElementById("email").value;
-            var date = document.getElementById("Date").value;
-            var feedback = document.getElementById("feedback").value; */
             var firstName = $("#firstName").val();
             var lastName = $("#lastName").val();
             var email = $("#email").val();
             var date = $("#Date").val();
             var feedback = $("#feedback").val();
 
-            /* feedbacks={
-                'first_name':firstName,
-                'last_name':firstName,
-                'email':email,
-                'date':date,
-                'feedback':date
-            } */
-            //console.log("Ur name is "+firstName);
-
-            var requestBody = "{\"first_name\":\""+firstName+"\",\"last_name\":\""+lastName+"\",\"email\":\""+email+"\",\"date\":\""+date+"\",\"feedback\":\""+feedback+"\"}";
+            var requestBody = "{\"first_name\":\""+ firstName +"\",\"last_name\":\""+ lastName +"\",\"email\":\"" + email +"\",\"date\":\""+ date +"\",\"feedback\":\""+ feedback +"\"}";
             // var requestBody = "{\"user_name\":\"" + name +"\",     \"email\":\"" + email +"\",\"data\":\"" + date +"\",\"feedback\":\"" + feedback +"\"}";  
             console.log(requestBody);
             var client=new XMLHttpRequest();
@@ -93,7 +79,9 @@
 
             client.onreadystatechange = function() { 
                 if(this.readyState == this.DONE) {
-                    document.getElementById("response").innerHTML=this.status + this.response;
+                   alert("done")
+                }else{
+                    alert("not done")
                 }
             }; 
             client.send(requestBody);
