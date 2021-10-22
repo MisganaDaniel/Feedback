@@ -10,51 +10,6 @@
     <script src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <title>Feedback</title>
-  </head>
-  <body>
-    <div class="card shadow-lg" style="width: 1000px;margin-left:150px;margin-top:100px;border-radius:12px;">
-        <div class="card-body">
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="logo.png" alt="">
-                </div>
-                <div class="col-md-7">
-                    <h2 class="card-title" style="margin-bottom:70px;margin-top:20px;text-align:center;">Leave Your Feedback Below.</h2>
-                </div>
-            </div>
-            <form class="row g-3" style="margin-left:60px;">
-                <div class="col-md-5">
-                    <label class="form-label">First Name</label>
-                    <input type="text" name="" id="firstName">
-                    <!-- <input type="text" id="firstName" class="form-control"  placeholder="Firstname" > -->
-                </div>
-                <div class="col-md-5">
-                    <label class="form-label">Last Name</label>
-                    <input type="text" class="form-control" id="lastName" placeholder="Lastname" >
-                </div>
-                <div class="col-5">
-                    <label class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Email" >
-                </div>
-                <div class="col-5">
-                    <label class="form-label">Date</label>
-                    <input type="date" class="form-control" id="Date" >
-                </div>
-                <div class="col-10">
-                    <label class="form-label">Feedback</label>
-                    <textarea class="form-control" id="feedback" rows="4" cols="50" > 
-                    </textarea>
-                    <!-- <input type="date"  id="inputAddress2" placeholder="Apartment, studio, or floor"> -->
-                </div>
-                <div class="col-5">
-
-                </div>
-                <div class="col-5">
-                    <button type="submit" id="submit" class="btn btn-primary">Submit</button>
-                </div>
-            </form>
-        </div>
-    </div>
     <script type="text/javascript">
         function feedback(){
             
@@ -100,6 +55,52 @@
             
         }
     </script>
+  </head>
+  <body>
+    <div class="card shadow-lg" style="width: 1000px;margin-left:150px;margin-top:100px;border-radius:12px;">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="logo.png" alt="">
+                </div>
+                <div class="col-md-7">
+                    <h2 class="card-title" style="margin-bottom:70px;margin-top:20px;text-align:center;">Leave Your Feedback Below.</h2>
+                </div>
+            </div>
+            <form class="row g-3" style="margin-left:60px;">
+                <div class="col-md-5">
+                    <label class="form-label">First Name</label>
+                    <input type="text" name="" id="firstName">
+                    <!-- <input type="text" id="firstName" class="form-control"  placeholder="Firstname" > -->
+                </div>
+                <div class="col-md-5">
+                    <label class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Lastname" >
+                </div>
+                <div class="col-5">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email" >
+                </div>
+                <div class="col-5">
+                    <label class="form-label">Date</label>
+                    <input type="date" class="form-control" id="Date" >
+                </div>
+                <div class="col-10">
+                    <label class="form-label">Feedback</label>
+                    <textarea class="form-control" id="feedback" rows="4" cols="50" > 
+                    </textarea>
+                    <!-- <input type="date"  id="inputAddress2" placeholder="Apartment, studio, or floor"> -->
+                </div>
+                <div class="col-5">
+
+                </div>
+                <div class="col-5">
+                    <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
    <script>
         var buttonSubmit = document.getElementById("submit");
         buttonSubmit.addEventListener("click",feedback());
