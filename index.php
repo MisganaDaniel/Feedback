@@ -58,13 +58,7 @@
         function feedback(){
             
             //var requestBody = "{\"first_name\":\"Misgana\",\"last_name\":\"Daniel\",\"email\":\"ssssssss\",\"date\":\"\",\"feedback\":\"ssssssssss\"}"; 
-            
-            // var firstName = $("#firstName").val();
-            // var lastName = $("#lastName").val();
-            // var email = $("#email").val();
-            // var date = $("#Date").val();
-            // var feedback = $("#feedback").val();
-
+           
             var firstName = document.getElementById("firstName").value;
             var lastName = document.getElementById("lastName").value;
             var email = document.getElementById("email").value;
@@ -94,7 +88,7 @@
         }
     </script>
    <script>
-        var buttonSubmit = document.getElementById("submit").addEventListener("click",feedback);
+        var buttonSubmit = document.getElementById("submit").addEventListener("click",feedback());
         //buttonSubmit.addEventListener("click",feedback);
    </script>
 
