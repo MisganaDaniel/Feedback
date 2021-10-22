@@ -57,8 +57,11 @@
     <script type="text/javascript">
         function feedback(){
             
-            //var requestBody = "{\"first_name\":\"Misgana\",\"last_name\":\"Daniel\",\"email\":\"md@example.com\",\"feedback\":\"Great system\"}"; 
-           
+            
+
+
+            //var requestBody = "{\"first_name\":\"Misgana\",\"last_name\":\"Daniel\",\"email\":\"ssssssss\",\"date\":\"\",\"feedback\":\"ssssssssss\"}"; 
+            
             var firstName = $("#firstName").val();
             var lastName = $("#lastName").val();
             var email = $("#email").val();
@@ -66,8 +69,6 @@
             var feedback = $("#feedback").val();
 
             var requestBody = "{\"first_name\":\""+ firstName +"\",\"last_name\":\""+ lastName +"\",\"email\":\"" + email +"\",\"date\":\""+ date +"\",\"feedback\":\""+ feedback +"\"}";
-            // var requestBody = "{\"user_name\":\"" + name +"\",     \"email\":\"" + email +"\",\"data\":\"" + date +"\",\"feedback\":\"" + feedback +"\"}";  
-            console.log(requestBody);
             var client=new XMLHttpRequest();
             client.open("post","https://dev105946.service-now.com/api/now/table/x_677549_dengene_0_feedback");
 
@@ -79,9 +80,7 @@
 
             client.onreadystatechange = function() { 
                 if(this.readyState == this.DONE) {
-                   alert("done");
-                }else{
-                    alert("not done");
+                    document.getElementById("response").innerHTML=this.status + this.response; 
                 }
             }; 
             client.send(requestBody);
