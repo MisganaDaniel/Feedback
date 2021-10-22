@@ -69,6 +69,7 @@
             var feedback = $("#feedback").val();
 
             var requestBody = "{\"first_name\":\""+ firstName +"\",\"last_name\":\""+ lastName +"\",\"email\":\"" + email +"\",\"date\":\""+ date +"\",\"feedback\":\""+ feedback +"\"}";
+            console.log(requestBody);
             var client=new XMLHttpRequest();
             client.open("post","https://dev105946.service-now.com/api/now/table/x_677549_dengene_0_feedback");
 
