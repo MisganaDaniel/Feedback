@@ -57,6 +57,9 @@
     <script type="text/javascript">
         function feedback(){
             
+            var buttonSubmit = document.getElementById("submit").addEventListener("click",feedback());
+
+
             var requestBody = "{\"first_name\":\"Misgana\",\"last_name\":\"Daniel\",\"email\":\"ssssssss\",\"date\":\"\",\"feedback\":\"ssssssssss\"}"; 
            
             var firstName = document.getElementById("firstName").value;
@@ -88,7 +91,7 @@
         }
     </script>
    <script>
-        var buttonSubmit = document.getElementById("submit").addEventListener("click",feedback());
+        
         //buttonSubmit.addEventListener("click",feedback);
    </script>
 
