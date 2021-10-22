@@ -25,7 +25,7 @@
             <form class="row g-3" style="margin-left:60px;">
                 <div class="col-md-5">
                     <label class="form-label">First Name</label>
-                    <input type="text" class="form-control" id="firstName" placeholder="Firstname" >
+                    <input type="text" id="firstName" class="form-control"  placeholder="Firstname" >
                 </div>
                 <div class="col-md-5">
                     <label class="form-label">Last Name</label>
@@ -50,8 +50,6 @@
                 </div>
                 <div class="col-5">
                     <button type="submit" id="submit" class="btn btn-primary">Submit</button>
-                    <!-- <input type="button" value="Submit" onclick="feedback()"> -->
-                    <!-- <input type="submit" value="Submit" onclick="feedback()"> -->
                 </div>
             </form>
         </div>
