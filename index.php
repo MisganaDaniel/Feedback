@@ -101,7 +101,7 @@
         }
     </script>
    <script>
-        var buttonSubmit = document.getElementById("submit")addEventListener("click",feedback);
+        var buttonSubmit = document.getElementById("submit").addEventListener("click",feedback);
         //buttonSubmit.addEventListener("click",feedback);
    </script>
 
