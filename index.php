@@ -59,11 +59,17 @@
             
             //var requestBody = "{\"first_name\":\"Misgana\",\"last_name\":\"Daniel\",\"email\":\"ssssssss\",\"date\":\"\",\"feedback\":\"ssssssssss\"}"; 
             
-            var firstName = $("#firstName").val();
-            var lastName = $("#lastName").val();
-            var email = $("#email").val();
-            var date = $("#Date").val();
-            var feedback = $("#feedback").val();
+            // var firstName = $("#firstName").val();
+            // var lastName = $("#lastName").val();
+            // var email = $("#email").val();
+            // var date = $("#Date").val();
+            // var feedback = $("#feedback").val();
+
+            var firstName = document.getElementById("firstName").value;
+            var lastName = document.getElementById("lastName").value;
+            var email = document.getElementById("email").value;
+            var date = document.getElementById("Date").value;
+            var feedback = document.getElementById("feedback").value;
 
             var requestBody = "{\"first_name\":\""+ firstName +"\",\"last_name\":\""+ lastName +"\",\"email\":\"" + email +"\",\"date\":\""+ date +"\",\"feedback\":\""+ feedback +"\"}";
             console.log(requestBody);
